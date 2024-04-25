@@ -31,5 +31,3 @@ myshell batchfile
 
 Environment:
 The shell environment contains a variable 'shell' that points to the MyShell executable.
-
-For more information, refer to the documentation or online resources for Python and command-line shells.
