@@ -1,0 +1,35 @@
+User Manual for JYShell
+
+JYShell is a simple command-line shell designed to provide basic functionality similar to traditional Unix-like shells.
+
+Internal Commands:
+- cd <directory>: Change the current working directory to the specified directory. If no directory is specified, display the current directory.
+- clr: Clear the screen.
+- dir <directory>: List the contents of the specified directory. If no directory is specified, list the contents of the current directory.
+- environ: List all environment variables.
+- echo <comment>: Display the specified comment on the screen.
+- help: Display this user manual.
+- pause: Pause shell operation until Enter is pressed.
+- quit: Quit the shell.
+
+Additional Commands:
+- mkdir <directory>: Create a new directory with the specified name.
+- rmdir <directory>: Remove the specified directory (must be empty).
+- create <filename>: Create a new text file with the specified filename.
+- edit <filename>: Open the specified text file for editing. It opens the file in the default text editor (Notepad on Windows, Nano on Unix-like systems).
+- remove <filename> or rm <filename>: Remove the specified text file.
+
+Running Programs:
+To run programs, simply type the name of the program followed by any arguments. The shell will execute the program as its own child process.
+
+4. Input/Output Redirection:
+MyShell supports input/output redirection for commands. You can use standard shell redirection symbols (` programname arg1 arg2 < inputfile > outputfile
+
+Batch Execution:
+To execute commands from a file, provide the filename as a command-line argument when launching MyShell:
+myshell batchfile
+
+Environment:
+The shell environment contains a variable 'shell' that points to the MyShell executable.
+
+For more information, refer to the documentation or online resources for Python and command-line shells.
